@@ -1,0 +1,33 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box{
+    background-color: #333;
+    padding: 100px;
+    border-radius: 30px;
+    border: 2px solid gold;
+    text-align: center;
+}
+h2{
+    color: gold;
+    font-size: 300%;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    font-size: 200%;
+    border: 2px solid gold;
+}
+p{
+    color: white;
+    font-size: 200%;
+}
